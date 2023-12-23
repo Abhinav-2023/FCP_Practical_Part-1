@@ -23,10 +23,4 @@ void main()
     float SimpleInterest = CalculateSimpleInterest(principal, rate, time);
 
     printf("Simple interest is : %f\n", SimpleInterest);
-=======
-#include <stdio.h>
-
-float CalculateSimpleInterest(float principal, float rate, float time){
-    float SimpleInterest = principal * rate * time / 100;
-    return SimpleInterest;
 }
